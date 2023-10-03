@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 #include "math.hpp"
-int a;
+
 class Camera {
 public:
 	float last_mouse_x;

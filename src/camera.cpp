@@ -9,8 +9,6 @@
 
 #include <cmath>
 
-#include "math.hpp"
-
 void Camera::Move(const char key, bool shift, bool ctlr) {
 	float camera_speed = 1.0f;
 

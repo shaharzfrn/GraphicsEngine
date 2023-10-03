@@ -11,7 +11,6 @@
 
 #include <vector>
 
-
 #include "math.hpp"
 #include "shader.hpp"
 #include "buffer.hpp"

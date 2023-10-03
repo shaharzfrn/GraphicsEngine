@@ -14,8 +14,6 @@
 #include "box.hpp"
 
 
-
-
 namespace CGL {
 
 
@@ -61,9 +59,6 @@ mat4 Scale(const float& scale);
 
 mat4 Transpose(const mat4& mat);
 mat4 Inverse(const mat4& mat);
-
-
-
 
 mat4 GenerateViewPortMatrix(const int& x, const int& y, const int& width, const int& height, const float& z_min, const float& z_max);
 mat4 GenerateModelMatrix(const vec3 &position, const vec3 &rotation, const vec3 &scale, const bool &object=true);

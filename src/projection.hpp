@@ -17,7 +17,6 @@ const int OTHOGRAPHIC_PROJECTION = 1;
 
 inline int projection_type = OTHOGRAPHIC_PROJECTION;
 
-
 mat4 GenerateProjectionMatrix(const vec3& position);
 mat4 GenerateProjectionMatrix();
 

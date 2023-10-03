@@ -19,7 +19,6 @@ inline float FAR = 250.f;
 
 inline vec4 background_color;
 inline wxBitmap *background_image = nullptr;
-
 };
 
 

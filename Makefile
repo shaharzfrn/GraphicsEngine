@@ -2,7 +2,7 @@ PROJECT := src
 EXE_OUT := main
 
 CC := g++
-C_FLAGS := -std=c++17
+C_FLAGS := -std=c++20
 CXX_FLAGS := -Werror -I./src -I./src/math -I./src/shader -I./src/cgl -I./src/window -I./src/Irit -I./src/Irit/inc_irit
 
 OBJ := 	\
