@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 #include <stdexcept>
+#include <cstring>
 
 #include "vec.hpp"
 
