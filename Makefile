@@ -74,6 +74,7 @@ all: build_dir $(BUILD_DIR)/$(EXECUTABLE)
 	
 build_dir:
 	@mkdir -p $(BUILD_DIR)
+	@echo '*' > $(BUILD_DIR)/.gitignore
 
 $(BUILD_DIR)/$(EXECUTABLE): $(OBJECTS)
 	@echo "Create executable"
