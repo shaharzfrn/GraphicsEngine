@@ -43,5 +43,8 @@ Run ```./main``` inside the main folder.
 
 # Screenshots
 
-![Base](./screenshot-base.png)
-![Shadow](./screenshot-shadow.png)
+* Some of the featues
+![Base](./screenshots/screenshot-base.png)
+
+* Torus make shadow on flat plane with wood texture.
+![Shadow](./screenshots/screenshot-shadow.png)
