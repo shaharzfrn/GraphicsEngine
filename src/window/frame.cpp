@@ -231,12 +231,12 @@ void Frame::CreateMainToolBar() {
 											 wxAUI_TB_PLAIN_BACKGROUND | wxAUI_TB_GRIPPER);
 	
 	
-	tb1->AddTool(CGL_VIEW_PRESPECTIVE_ID, "Perspective", wxBitmap("/Users/shaharzfrn/Documents/studies/236216/CGApp/CGApp/res/view_persp.xpm", wxBITMAP_TYPE_XPM));
+	tb1->AddTool(CGL_VIEW_PRESPECTIVE_ID, "Perspective", wxBitmap("./res/view_persp.xpm", wxBITMAP_TYPE_XPM));
 	
-	tb1->AddTool(CGL_VIEW_OTHOGRAPHIC_ID, "Orthographic", wxBitmap("/Users/shaharzfrn/Documents/studies/236216/CGApp/CGApp/res/view_ortho.xpm", wxBITMAP_TYPE_XPM));
+	tb1->AddTool(CGL_VIEW_OTHOGRAPHIC_ID, "Orthographic", wxBitmap("./res/view_ortho.xpm", wxBITMAP_TYPE_XPM));
 	
-	tb1->AddTool(CGL_VIEW_OTHOGRAPHIC_ID+1, "Orthographic", wxBitmap("/Users/shaharzfrn/Documents/studies/236216/CGApp/CGApp/res/light.png", wxBITMAP_TYPE_PNG));
-	tb1->AddTool(CGL_VIEW_OTHOGRAPHIC_ID+5, "Orthographic", wxBitmap("/Users/shaharzfrn/Documents/studies/236216/CGApp/CGApp/res/shadow.png", wxBITMAP_TYPE_PNG));
+	tb1->AddTool(CGL_VIEW_OTHOGRAPHIC_ID+1, "Orthographic", wxBitmap("./res/light.png", wxBITMAP_TYPE_PNG));
+	tb1->AddTool(CGL_VIEW_OTHOGRAPHIC_ID+5, "Orthographic", wxBitmap("./res/shadow.png", wxBITMAP_TYPE_PNG));
 	
 	tb1->Realize();
 	

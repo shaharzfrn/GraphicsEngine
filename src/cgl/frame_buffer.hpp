@@ -62,12 +62,12 @@ public:
 	
 };
 
-void c() {
-	Texture t(128, 128, sizeof(float));
+// void c() {
+// 	Texture t(128, 128, sizeof(float));
 	
-	float val = 123.0f;
-	t.Set(0, 0, reinterpret_cast<u_int8_t *>(&val));
-}
+// 	float val = 123.0f;
+// 	t.Set(0, 0, reinterpret_cast<u_int8_t *>(&val));
+// }
 
 
 // textures:

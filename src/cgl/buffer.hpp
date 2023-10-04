@@ -91,7 +91,6 @@ class ColorBuffer : public Buffer {
 	ColorBuffer(const int& width, const int& height): Buffer(width, height, sizeof(vec4)) {
 		buffer.CreateWithDIPSize(width, height, 2);
 		p_bitmap_b.SelectObject(buffer);
-//		p_bitmap = new wxMemoryDC(buffer);
 	};
 
 	virtual void Clear(const u_int8_t* clear) {
@@ -99,9 +98,6 @@ class ColorBuffer : public Buffer {
 		Buffer::Clear(clear);
 		
 		const vec4 color = *(reinterpret_cast<const vec4*>(clear));
-
-//		p_bitmap->SetBackground(wxBrush(wxColour(color.x, color.y, color.z, color.w)));
-//		p_bitmap->Clear();
 		
 		p_bitmap_b.SetBackground(wxBrush(wxColour(color.x, color.y, color.z, color.w)));
 		p_bitmap_b.Clear();
